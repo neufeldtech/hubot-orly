@@ -1,24 +1,30 @@
 {
-    "name": "hubot-orly",
-    "version": "0.0.1",
-    "description": "Hubot interface to generate Orly book covers",
-    "main": "index.coffee",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/neufeldtech/hubot-orly.git"
-    },
-    "keywords": [
-        "hubot",
-        "hubot-scripts",
-        "hubot-orly"
-    ],
-    "author": "Jordan Neufeld <myjc.niv@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/neufeldtech/hubot-orly/issues"
-    },
-    "homepage": "https://github.com/neufeldtech/hubot-orly#readme"
+  "name": "hubot-orly",
+  "version": "0.0.2",
+  "description": "Hubot interface to generate Orly book covers",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --timeout 5000 --compilers coffee:coffee-script/register test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neufeldtech/hubot-orly.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-orly"
+  ],
+  "author": "Jordan Neufeld <myjc.niv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neufeldtech/hubot-orly/issues"
+  },
+  "homepage": "https://github.com/neufeldtech/hubot-orly#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.12.4",
+    "hubot-test-helper": "^1.5.1",
+    "mocha": "^3.2.0"
+  }
 }

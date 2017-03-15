@@ -32,6 +32,14 @@ hubot> https://orly-appstore.herokuapp.com/generate?title=Learning%20Coffeescrip
 op_text=Javascript%20is%20better!&author=Jordan%20Neufeld&image_code=2&theme=14
 ```
 
+## Tests
+
+To run the tests, run the below command. If you are contributing, please add appropriate tests before submitting a pull request.
+
+```
+npm test
+```
+
 ## Acknowledgements
 Thanks to [@ThePracticalDev](https://twitter.com/ThePracticalDev) for creating this [book cover generator](https://dev.to/rly).
 
