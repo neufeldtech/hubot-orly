@@ -16,6 +16,9 @@
     "hubot-orly"
   ],
   "author": "Jordan Neufeld <myjc.niv@gmail.com>",
+  "contributors": [
+    "Michael Stahnke <stahnma@puppet.com>"
+    ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/neufeldtech/hubot-orly/issues"
