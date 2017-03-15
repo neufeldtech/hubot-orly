@@ -12,7 +12,7 @@ describe 'Generic Adapter', ->
       @room.user.say('jordan.neufeld', '@hubot orly title; guide text ; top text ; author').then =>
         expect(@room.messages[1][1]).to.match(/^https:\/\/orly\-appstore\.herokuapp\.com\/generate\?title=title&guide_text=guide%20text&top_text=top%20text&author=author&image_code=\d+&theme=\d+$/)
 
-describe.skip 'Hipchat adapter', ->
+describe 'Hipchat adapter', ->
   beforeEach ->
     @room = helper.createRoom(httpd: false)
     @room.robot.adapterName = "hipchat"
