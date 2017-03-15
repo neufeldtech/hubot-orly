@@ -1,6 +1,7 @@
 hubot-orly
 ================
 [![npm version](https://badge.fury.io/js/hubot-orly.svg)](https://badge.fury.io/js/hubot-orly)
+[![Build Status](https://travis-ci.org/neufeldtech/hubot-orly.svg?branch=master)](https://travis-ci.org/neufeldtech/hubot-orly)
 
 Hubot interface to create O'rly book covers.
 
