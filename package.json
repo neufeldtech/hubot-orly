@@ -18,7 +18,7 @@
   "author": "Jordan Neufeld <myjc.niv@gmail.com>",
   "contributors": [
     "Michael Stahnke <stahnma@puppet.com>"
-    ],
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/neufeldtech/hubot-orly/issues"
@@ -28,6 +28,6 @@
     "chai": "^3.5.0",
     "coffee-script": "^1.12.4",
     "hubot-test-helper": "^1.5.1",
-    "mocha": "^3.2.0"
+    "mocha": "^6.2.1"
   }
 }
